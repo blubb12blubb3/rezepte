@@ -5,7 +5,7 @@ import 'package:rezepte/pages/search.dart';
 import 'package:rezepte/pages/settings.dart';
 import 'pages/create.dart';
 //dies ist ein test von der Seite von GitHub
-//dies ist ein test von der VSC Setie
+//dies ist ein test von der VSC Setie!!
 void main() {
   runApp(const MyApp());
 }
