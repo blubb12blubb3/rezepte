@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rezepte/pages/home.dart';
 import 'package:rezepte/pages/saved.dart';
-import 'package:rezepte/pages/search.dart';
+import 'package:rezepte/pages/discover.dart';
 import 'package:rezepte/pages/settings.dart';
 import 'pages/create.dart';
 //dies ist ein test von der Seite von GitHub
@@ -40,7 +40,7 @@ class _BottomNavigationBarExampleState
   int _selectedIndex = 0;
   static final List<Widget> _widgetOptions = <Widget>[
     const HomePage(),
-    const SearchPage(),
+    const DiscoverPage(),
     const CreatePage(),
     const SavedPage(),
     const SettingsPage(),
@@ -69,8 +69,8 @@ class _BottomNavigationBarExampleState
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search_rounded),
-            label: 'Search',
+            icon: Icon(Icons.grid_on),
+            label: 'Discover',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add_circle_outline_rounded),
