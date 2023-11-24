@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:rezepte/pages/home.dart';
 import 'package:rezepte/pages/saved.dart';
 import 'package:rezepte/pages/discover.dart';
@@ -77,8 +78,8 @@ class _BottomNavigationBarExampleState
             label: 'Create',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.bookmark_rounded),
-            label: 'Bookmarks',
+            icon: Icon(Icons.favorite),
+            label: 'Favorites',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings_rounded),
